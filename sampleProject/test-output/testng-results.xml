@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22946" started-at="2020-05-22T09:11:08Z" finished-at="2020-05-22T09:11:31Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="22946" started-at="2020-05-22T09:11:08Z" finished-at="2020-05-22T09:11:31Z">
+      <class name="sampleProject.sampleProject.jenkinDemo">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:sampleProject.sampleProject.jenkinDemo@1a38c59b]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2020-05-22T09:11:08Z" finished-at="2020-05-22T09:11:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void sampleProject.sampleProject.jenkinDemo.demoTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="demoTest()[pri:0, instance:sampleProject.sampleProject.jenkinDemo@1a38c59b]" name="demoTest" duration-ms="19625" started-at="2020-05-22T09:11:08Z" finished-at="2020-05-22T09:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demoTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:sampleProject.sampleProject.jenkinDemo@1a38c59b]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-22T09:11:28Z" finished-at="2020-05-22T09:11:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=demoTest status=SUCCESS method=jenkinDemo.demoTest()[pri:0, instance:sampleProject.sampleProject.jenkinDemo@1a38c59b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="killProcess()[pri:0, instance:sampleProject.sampleProject.jenkinDemo@1a38c59b]" name="killProcess" is-config="true" duration-ms="3200" started-at="2020-05-22T09:11:28Z" finished-at="2020-05-22T09:11:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killProcess -->
+      </class> <!-- sampleProject.sampleProject.jenkinDemo -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,22 @@
+package sampleProject.sampleProject;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+public class jenkinDemo {
+	
+	@Test
+	public void demoTest() {
+		System.setProperty("webdriver.chrome.driver", "/sampleProject/Driver/chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("http://google.com");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
+	}
+
+}
